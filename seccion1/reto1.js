@@ -13,7 +13,7 @@ while(option == 'si'){
 
     let userName = arrays[0].slice(0,3) + arrays[1].slice(0,3);
 
-    if(list.includes(userName + '@myDomain.com')==true){
+    if(list.includes(userName + '@myDomain.com')){
         window.alert(userName +'@myDomain.com' + ' ya existe');
         list.push(userName+ ++i +'@myDomain.com');
         window.alert(userName+ i +'@myDomain.com'+' Ha sido asignado')

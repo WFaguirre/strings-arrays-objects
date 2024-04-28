@@ -5,6 +5,8 @@ function passwordValidate(password){
     return regex.test(password);
 }
 
+
+
 if(passwordValidate(input) == true) {
     window.alert('Contraseña segura');
 } else {
